@@ -1,0 +1,12 @@
+{
+  "hello": "world",
+  "object": {
+    "field": 7,
+    "array": [
+      "one",
+      0,
+      null,
+      true
+    ]
+  }
+}

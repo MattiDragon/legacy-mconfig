@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mconfig",
+  "version": "${version}",
+
+  "name": "MConfig",
+  "description": "A tiny config lib.",
+  "authors": [
+    "MattiDragon"
+  ],
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  },
+  "contact": {
+    "homepage": "https://mattidragon.github.io",
+    "sources": "https://github.com/mattidragon/mconfig",
+    "issues": "https://github.com/mattidragon/mconfig/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mconfig/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": ">=1.17",
+    "java": ">=16"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
