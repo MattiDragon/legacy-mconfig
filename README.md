@@ -1,12 +1,12 @@
-#MConfig
+# MConfig
 
-##About
+## About
 MConfig is a minimal config api that allows you to easily work with you config files using gson. 
 MConfig is responsible for loading, saving and creating config files and gives you full control 
 over the data.
 
-##Usage
-###Setup
+## Usage
+### Setup
 build.gradle:
 ```groovy
 repositories {
@@ -28,12 +28,12 @@ creation method it should be called `config.json` and be placed in the "resource
 used the identifier constructor, it should be placed in `config/PATH.json` in the "resources" 
 folder.
 
-###Reading the config
+### Reading the config
 To read a value use the `getOption(String)` method. It takes a dot separated string that 
 specifies the location of the option. If you need to edit it at runtime, you use the 
 `setOption(String, JsonElement)` method. Remember to save it afterwards using `save()`.
 
-###Mod Menu
+### Mod Menu
 If you want to use the builtin modmenu screen you can make your modmenu entrypoint like this:
 ```java
 @Override
@@ -43,7 +43,7 @@ public ConfigScreenFactory<Screen> getModConfigScreenFactory() {
 }
 ```
 
-###Example
+### Example
 ```java
 public class Example implements ModMenuApi {
     public static final Config CONFIG = Config.of(new Identifier("example", "main"));
@@ -68,7 +68,7 @@ public class Example implements ModMenuApi {
 
 But I would recommend that you make your own as the build in one is quite limited.
 
-##Limits
+## Limits
 Currently, all options have to be both in the default and users config. This means maps and 
 similar structures can't be implemented. It also causes optional values to be impossible. This 
 might change in the future if I switch away from json or do something else.
