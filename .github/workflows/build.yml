@@ -33,7 +33,7 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "dev"
           prerelease: true
           title: "Development Build"
           files: |
