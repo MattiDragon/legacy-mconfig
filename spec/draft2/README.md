@@ -14,17 +14,17 @@ by the type.
 
 ## Types
 
-- [Simple](simple_types) (int, integer)
-  - [Number and Integer](simple_types#Number and Integer) (num, number, float, double)
-  - [String](simple_types#String) (str, string)
-  - [Boolean](simple_types#Boolean) (bool, boolean)
-  - [Enum](simple_types#Enum) (enum)
-- [Collections](collection_types)
-  - [List](collection_types#List) (list)
-  - [Dictionary](collection_types#Dictionary) (dict, dictionary)
-  - [Map](collection_types#Map) (map)
-- [Organisation](organisation_types)
-  - [Category](organisation_types#Category) (cat, category)
+- [Simple](simple_types.md) (int, integer)
+  - [Number and Integer](simple_types.md#Number%20and%20Integer) (num, number, float, double)
+  - [String](simple_types.md#String) (str, string)
+  - [Boolean](simple_types.md#Boolean) (bool, boolean)
+  - [Enum](simple_types.md#Enum) (enum)
+- [Collections](collection_types.md)
+  - [List](collection_types.md#List) (list)
+  - [Dictionary](collection_types.md#Dictionary) (dict, dictionary)
+  - [Map](collection_types.md#Map) (map)
+- [Organisation](organisation_types.md)
+  - [Category](organisation_types.md#Category) (cat, category)
   
 | Names              | Java Type      |
 |:------------------:|:--------------:|
@@ -50,5 +50,5 @@ is defined separately.
 | multipleOf | list<num> | The size must be a multiple of all numbers in this list
 
 ## Example
-see [Example](example)
+see [Example](example.md)
 

@@ -8,7 +8,7 @@ The corresponding values are always of type `number` in the config file. If the 
 
 | Name | Description
 |:---:|-----
-| `range` | A range restriction (see [Size and Range](README#Size and Range))
+| `range` | A range restriction (see [Size and Range](README.md#Size and Range))
 
 ## String
 The corresponding values are `string`s in the config file.
@@ -18,7 +18,7 @@ The corresponding values are `string`s in the config file.
 | Name | Description
 |:---:|-----
 | `regex` | Contains a regex pattern that the string must match.
-| `size` | A size restriction (see [Size and Range](README#Size and Range))
+| `size` | A size restriction (see [Size and Range](README.md#Size and Range))
 
 ## Boolean
 The corresponding values are of type `boolean` in the config file. Different formats have
