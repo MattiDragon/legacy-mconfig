@@ -7,7 +7,7 @@ Lists are represented as `array`s. They store many of the same type of object.
 
 | Name | Description
 |:---:|-----
-| `size` | A size restriction (see [Size and Range](README#Size and Range))
+| `size` | A size restriction (see [Size and Range](README.md#Size and Range))
 | `allowDuplicates` | Whether or not to allow duplicates in the list. The default value is `true`.
 
 ### Required Fields
@@ -25,7 +25,7 @@ They're used to simply represent maps with string keys and highly dynamic catego
 | Name | Description
 |:---:|-----
 | `key` | Contains a definition of the key strings. Can't contain a `type` field as it's always string.
-| `size` | A size restriction (see [Size and Range](README#Size and Range))
+| `size` | A size restriction (see [Size and Range](README.md#Size and Range))
 | `allowDuplicates` | Whether or not to allow duplicates in the list. The default value is `true`.
 
 ### Required Fields
@@ -42,7 +42,7 @@ to they keys and values of the map entries.
 
 | Name | Description
 |:---:|-----
-| `size` | A size restriction (see [Size and Range](README#Size and Range))
+| `size` | A size restriction (see [Size and Range](README.md#Size and Range))
 | `allowDuplicates` | Whether or not to allow duplicates in the list. The default value is `true`.
 
 
