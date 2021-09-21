@@ -25,7 +25,8 @@ by the type.
   - [Map](collection_types.md#Map) (map)
 - [Organisation](organisation_types.md)
   - [Category](organisation_types.md#Category) (cat, category)
-  
+
+<!--- Might be used later:
 | Names              | Java Type      |
 |:------------------:|:--------------:|
 | int, integer       | Integer        |
@@ -37,6 +38,7 @@ by the type.
 | map                | Map<K, V>      |
 | list               | List<V>        |
 | null               | null           |
+-->
 
 ## Size and Range
 Many types support this field, and it contains many subfields (more may be added later) and thus 
